@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UIKit 프레임워크 컴포넌트 - Countdown</title>
+  <!-- UIkit CSS & JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="content">
+      <!-- Heading -->
+      <div class="heading">
+        <h1>WE ARE COMING SOON</h1>
+        <p>
+          CodingWorks official website has been renewed and opened. Take a look at the newly refurbished website and give a small prize to those who answer the quiz correctly. We look forward to your involvement!
+        </p>
+      </div>
+      <!-- UIKit Countdown -->
+      <div class="mycountdown uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: 2022-02-31T00:00:46+00:00">
+        <div>
+          <div class="uk-countdown-number uk-countdown-days"></div>
+          <div class="uk-countdown-label uk- margin-small uk-text-center uk-visible@s">Days</div>
+        </div>
+        <div class="uk-countdown-separator">:</div>
+        <div>
+          <div class="uk-countdown-number uk-countdown-hours"></div>
+          <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Hours</div>
+        </div>
+        <div class="uk-countdown-separator">:</div>
+        <div>
+          <div class="uk-countdown-number uk-countdown-minutes"></div>
+          <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutes</div>
+        </div>
+        <div class="uk-countdown-separator">:</div>
+        <div>
+          <div class="uk-countdown-number uk-countdown-seconds"></div>
+          <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Seconds</div>
+        </div>
+      </div>
+      <!-- Subscribe -->
+      <div class="subscribe">
+        <input type="text" placeholder="ENTER YOUR EMAIL ADDRESS">
+        <button>SUBSCRIBE</button>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>

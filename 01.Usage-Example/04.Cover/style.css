@@ -1,0 +1,33 @@
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');
+
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif !important;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+button, input {
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.5em;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+/* Default CSS */
+body {
+  font-weight: 300;
+}
+
+/* .container-image {
+  height: 100vh;
+} */
+
+.container-video {
+  height: 100vh;
+}

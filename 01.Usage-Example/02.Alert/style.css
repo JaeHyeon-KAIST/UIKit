@@ -1,0 +1,76 @@
+/* XEION CDN */
+@import url('//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+/* Google Web Fonts CDN */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+button, input {
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.5em;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+/* Default CSS */
+body {
+  font-weight: 300;
+  margin: 0;
+}
+
+/* UIKit Custom CSS */
+.container img {
+  width: 100%;
+  /* border: 1px solid #000; */
+}
+
+.top-banner {
+  text-align: center;
+  background-color: #ff6154;
+  color: #fff;
+  margin-bottom: 0;
+}
+.top-banner p button {
+  background-color: #374257;
+  border: none;
+  color: #fff;
+  padding: 3px 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.top-banner p a:hover {
+  text-decoration: none !important;
+}
+.top-banner .uk-alert-close {
+  color: #000;
+}
+
+.footer-banner {
+  /* border: 1px solid #000; */
+  width: 450px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+.footer-banner .uk-alert {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.footer-banner .uk-alert a {
+  text-decoration: none;
+}
+.footer-banner .uk-alert a:hover {
+  text-decoration: underline !important;
+}
+
+
