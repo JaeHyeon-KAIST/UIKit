@@ -1,0 +1,97 @@
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+
+/* Google Web Fonts CDN */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif !important;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+button, input {
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.5em;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+/* Default CSS */
+body {
+  font-weight: 300;
+}
+.uk-link, a {
+  color: #222;
+}
+.uk-link:hover, a:hover {
+  color: #222;
+  text-decoration: none;
+}
+
+/* Section : Practical Coding */
+.practical {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+.practical .practical-header {
+  text-align: right;
+}
+.practical .content {
+  width: 1200px;
+  margin: auto;
+  /* border: 1px solid #000; */
+}
+.practical .practical-items {
+  margin-top: 40px;
+}
+.practical .practical-items h3 {
+  margin-left: 15px;
+}
+.practical-slider .uk-slider-items a li img {
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+  .practical .content {
+    width: 100%;
+  }
+}
+
+
+/* UIKit Custom CSS - 라이트박스 */
+.portfolio-result .uk-lightbox .uk-lightbox-iframe {
+  /* border: 10px solid red; */
+  width: 100%;
+  height: 100%; 
+  background-color: #fff;
+}
+.portfolio-result .uk-lightbox .uk-lightbox-button {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  opacity: 1;
+}
+.portfolio-result .uk-lightbox .uk-lightbox-toolbar {
+  background-color: transparent;
+}
+.portfolio-result .uk-lightbox .uk-lightbox-toolbar-icon {
+  background-color: tomato;
+  border-radius: 50%;
+  padding: 15px;
+  margin-right: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.219);
+  transition: 0.35s;
+}
+.portfolio-result .uk-lightbox .uk-lightbox-toolbar-icon:hover {
+  transform: scale(1.1);
+}
+.portfolio-result .uk-lightbox .uk-transition-slide-top {
+  transform: translateY(0);
+}

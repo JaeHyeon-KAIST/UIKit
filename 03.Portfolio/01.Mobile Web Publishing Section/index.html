@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>개인 홈페이지 포트폴리오 보여주기 #01(Mobile Web Publishing Section)</title>
+  <!-- UIkit CSS & JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <section class="mobile">
+      <div class="mobile-header">
+        <h1>MOBILE WEB APP</h1>
+      </div>
+      <div class="content uk-child-width-1-1 uk-child-width-1-2@s" uk-grid>
+        <div class="thum">
+          <img src="images/mobile-photo.png">
+        </div>
+        <div class="desc">
+          <div class="item-info">
+            <h3>Mobile Web : COFFEA</h3>
+            홈 카페 문화를 증가시킬 수 있도록 캡슐커피, 원두 등 처음 시도하는 사람도 접근하기 좋게 하여 구매 효과와 브랜드 홍보를 높였습니다.
+          </div>
+          <ul class="item-detail">
+            <li><span>작업기간</span>14일</li>
+            <li><span>작업범위</span>포토샵 UI디자인 및 퍼블리싱</li>
+            <li><span>제작방식</span>HTML + CSS + JQUERY</li>
+            <li><span>작업참여</span>100%</li>
+            <li><span>참고사항</span>모든 퍼블리싱 하드코딩으로 제작</li>
+          </ul>
+          <div class="item-btn">
+            <a href="#modal-mobile1" uk-toggle>기능정의서</a>
+            <a href="#modal-mobile2" uk-toggle>UI & Wireframe</a>
+            <a href="#modal-mobile3" uk-toggle>View HTML</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Modal : Mobile Plan -->
+  <div id="modal-mobile1" class="website-portfolio uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+      <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+      <iframe src="portfolio/mobile-web/function-definition.pdf" frameborder="0"></iframe>
+    </div>
+  </div>
+
+  <!-- Modal : Mobile UI & Wireframe -->
+  <div id="modal-mobile2" class="website-portfolio uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+      <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+      <iframe src="portfolio/mobile-web/prototype/prototype.html" frameborder="0"></iframe>
+    </div>
+  </div>
+
+  <!-- Modal : Mobile Mockup -->
+  <div id="modal-mobile3" class="website-portfolio uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+      <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+      <iframe src="portfolio/mobile-web/mobile-mockup.html" frameborder="0"></iframe>
+    </div>
+  </div>
+  
+</body>
+</html>

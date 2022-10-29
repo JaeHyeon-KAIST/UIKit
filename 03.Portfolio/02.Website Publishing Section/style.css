@@ -1,0 +1,164 @@
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+
+/* Google Web Fonts CDN */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif !important;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+button, input {
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.5em;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+/* Default CSS */
+body {
+  font-weight: 300;
+}
+.uk-link, a {
+  color: #222;
+}
+.uk-link:hover, a:hover {
+  color: #222;
+  text-decoration: none;
+}
+
+.website {
+  background-color: #fff;
+}
+.website .content {
+  /* width: 1200px; */
+  margin: auto;
+}
+.website-header {
+  background-color: #fff;
+}
+.website-header h1 {
+  color: #222;
+  font-size: 2em;
+  font-weight: 500;
+  padding: 20px 0;
+  width: 1200px;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.website-slider {
+  padding: 30px;
+}
+.website-slider .uk-slider-items .uk-panel img {
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.website-slider .item-info {
+  background-color: #000;
+}
+
+.website-slider .item-info {
+  width: 400px;
+  background-color: rgba(34, 34, 34, 0.892);
+  color: #fff;
+  padding: 30px;
+}
+.website-slider .item-info ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.8em;
+  pointer-events: none;
+}
+.website-slider .item-info li:first-child {
+  background-color: crimson;
+  display: inline-block;
+  padding: 0 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.website-slider .item-info li span {
+  margin-right: 10px;
+  font-weight: 500;
+}
+.website-slider .item-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 50px;
+}
+.website-slider .item-btn a {
+  border: 1px solid #7494ff;
+  width: 150px;
+  display: inline-block;
+  height: 40px;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+}
+.website-slider .item-btn a:hover {
+ background-color: #7494ff; 
+}
+
+/* UIKit Custom CSS - 이전 다음 버튼 */
+.website-slider .uk-position-small {
+  border: 1px solid #ddd;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 12px;
+}
+.website-slider .uk-position-small svg {
+  color: #000;
+  width: 8px;
+}
+.website-slider .uk-slider-nav {
+  margin-top: 50px;
+}
+
+/* UIKit Custom CSS - 라이트박스 */
+.portfolio-result .uk-lightbox .uk-lightbox-iframe {
+  /* border: 10px solid red; */
+  width: 100%;
+  height: 100%; 
+  background-color: #fff;
+}
+.portfolio-result .uk-lightbox .uk-lightbox-button {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  opacity: 1;
+}
+.portfolio-result .uk-lightbox .uk-lightbox-toolbar {
+  background-color: transparent;
+}
+.portfolio-result .uk-lightbox .uk-lightbox-toolbar-icon {
+  background-color: tomato;
+  border-radius: 50%;
+  padding: 15px;
+  margin-right: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.219);
+  transition: 0.35s;
+}
+.portfolio-result .uk-lightbox .uk-lightbox-toolbar-icon:hover {
+  transform: scale(1.1);
+}
+.portfolio-result .uk-lightbox .uk-transition-slide-top {
+  transform: translateY(0);
+}
+
+
+
+
+
