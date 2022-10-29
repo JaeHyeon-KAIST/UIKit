@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>UIKit 프레임워크 컴포넌트 - Off-canvas</title>
+  <!-- UIkit CSS & JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="trigger">
+        <button uk-toggle="target: #mysidebar"><i class="bi bi-list"></i></button>
+        <!-- <a href="#mysidebar" uk-toggle><i class="bi bi-list"></i></a> -->
+      </div>
+      <div class="menu">
+        <button><i class="bi bi-person-fill"></i></button>
+        <button><i class="bi bi-chat-dots"></i></button>
+      </div>
+    </header>
+    <section>
+      <h1>Body Content Here</h1>
+    </section>
+  </div>
+
+  <div id="mysidebar" uk-offcanvas="overlay: true; mode: slide; bg-close: false;">
+    <div class="uk-offcanvas-bar">
+      <button class="uk-offcanvas-close" type="button" uk-close></button>
+      <div class="sidebar">
+        <div class="sidebar-header">
+          <span>Side Panel Content or Navigation</span>
+        </div>
+        <div class="sidebar-content">
+          <h4>Content or Navigation Here</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, autem beatae! Reiciendis sed quia commodi quisquam exercitationem, quos vel eum molestias alias. Maiores ea fugit saepe voluptatibus sequi laboriosam dolorum deleniti. Explicabo impedit hic doloremque accusamus facere expedita veritatis? Ut dolor esse tenetur voluptatum debitis, veniam saepe aliquid perferendis culpa?
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // UIkit.offcanvas('#mysidebar').show();
+  </script>
+  
+</body>
+</html>

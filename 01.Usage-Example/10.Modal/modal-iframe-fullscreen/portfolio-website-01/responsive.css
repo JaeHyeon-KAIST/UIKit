@@ -1,0 +1,419 @@
+@media (max-width: 768px) {
+  /* Reset CSS */
+  /* Defalt CSS */
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 50px 10px !important;
+  }
+
+  /* Common CSS */
+  .headline-share h1 {
+    font-size: 28px;
+  }
+
+  /* ####################### Header ####################### */
+  .header-inner {
+    width: 100%;
+  }
+  .logo {
+    float: right;
+    margin-right: 20px;
+  }
+  .gnb {
+    float: none;
+    background-color: #fff;
+    position: fixed;
+    height: 100vh;
+    width: 250px;
+    top: 0;
+    left: -270px;
+    padding-top: 70px;
+    padding-left: 13px;
+    transition: 0.5s;
+    box-shadow: 3px 0 3px rgba(0, 0, 0, 0.1);
+  }
+  .gnb.active {
+    left: 0;
+  }
+  .gnb a {
+    display: block;
+  }
+
+  /* Trigger */
+  .trigger {
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    font-size: 28px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .trigger:before {
+    content: '\e91c';
+    font-family: xeicon;
+  }
+  .trigger.active:before {
+    content: '\e9af';
+  }
+
+/* ############## Section : welcome ############## */
+  .welcome {
+    height: 100vh;
+  }
+  .slideshow-area {
+    display: none;
+  }
+  .welcome-inner {}
+  .welcome-heading {
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
+  .welcome-heading span {
+    font-size: 18px;
+  }
+  .welcome-heading h1 {
+    font-size: 36px;
+  }
+  .welcome-heading p {
+    padding: 0;
+    margin-bottom: 25px;
+  }
+  .welcome-btns .btn {
+    width: 140px;
+  }
+
+  /* Mouse Wheele */
+  .mouse {
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+  }
+
+  /* ############## Section : ceo-access ############## */
+  .ceo-access {
+    padding-bottom: 0 !important;
+  }
+  .ceo-inner,
+  .access-inner {
+    width: 100%;
+    padding: 0;
+  }
+  .ceo-content {
+    padding-bottom: 60px;
+  }
+  .ceo-content > div {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .ceo-left {
+    padding-right: 0;
+  }
+  .ceo-right > div {
+    float: none;
+  }
+  .ceo-msg {
+    width: 100%;
+    padding: 30px 0;
+  }
+  .ceo-photo {
+    width: 100%;
+  }
+  .ceo-right p {
+    font-size: 16px;
+  }
+  .ceo-right img {
+    width: 100%;
+  }
+  .access-content > div {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .access-left {
+    padding-top: 0;
+  }
+  .access-left p {
+    margin-bottom: 30px;
+  }
+  .access-left h2 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .btn-download {
+    margin-bottom: 70px;
+  }
+  .btn-download img {
+    width: 150px;
+  }
+  .access-right img {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+
+  /* ############## Section : banner ############## */
+  .banner {
+    background: linear-gradient(to right, #69acfe, #6eaefd);
+  }
+  .banner-inner {
+    width: 100%;
+  }
+  .banner-content > div {
+    float: none;
+    width: 100%;
+  }
+  .tab-btn label {
+    margin: 0;
+    vertical-align: top;
+    width: 32%;
+  }
+  .tab-btn label em {
+    width: 90px;
+    height: 90px;
+    line-height: 130px !important;
+  }
+  .tabs {
+    padding-top: 50px;
+    padding-left: 0;
+    text-align: center;
+  }
+  .tabs > div h2 {
+    font-size: 24px;
+  }
+
+  /* ############## Section : feature ############## */
+  .feature-inner {
+    width: 100%;
+  }
+  .feature-content > div {
+    float: none;
+    height: auto;
+    width: 100%;
+  }
+  .feature-about,
+  .feature-mockup {
+    padding: 0;
+    margin-top: 50px;
+  }
+  .feature-mockup img {
+    width: 100%;
+  }
+  .feature-content {
+    margin: 0;
+  }
+  .feature-about h2 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  /* Change Order with Flex */
+  .feature-content.flex-order {
+    display: flex;
+    flex-direction: column;
+  }
+  .feature-content.flex-order > div:first-child {
+    order: 1;
+  }
+
+  /* ############## Section : vision ############## */
+  .vision {
+    background-color: #f9f9f9;
+  }
+  .vision-content > div {
+    float: none;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .vision-content > div:nth-child(even) {
+    margin-bottom: 40px;
+  }
+  .vision-item-headline {
+    width: 100%;
+  }
+
+  /* ############## Section : faq ############## */
+  .faq-inner {
+    width: 100%;
+  }
+  .faq-content > div {
+    float: none;
+    width: 100%;
+    min-height: 500px;
+    padding: 0;
+  }
+  .awards-content {
+    margin-top: 50px;
+  }
+  .awards-content h2 {
+    font-size: 30px;
+  }
+  .award-image img {
+    width: 100%;
+  }
+
+  /* ############## Section : review ############## */
+  .review-inner {
+    width: 100%;
+  }
+  .review-content {
+    width: 100%;
+  }
+  .review-slider > div p {
+    padding: 0;
+  }
+  .review-slider .slick-arrow {
+    display: none !important;
+  }
+  .review-content h1 {
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  /* ############## Section : focus ############## */
+  .focus-inner {
+    width: 100%;
+  }
+  .focus-content > div {
+    display: block;
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* ############## Section : guide ############## */
+  .guide-content {
+    width: 100%;
+  }
+  .guide-content > div {
+    float: none;
+    padding: 0;
+  }
+  .guide-slider {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .guide-video {
+    width: 100%;
+  }
+  .guide-video h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+  }
+  .video-headline {
+    font-size: 20px;
+  }
+  .video-headline img {
+    height: 20px;
+  }
+  .video-frame {
+    width: 100%;
+    height: 300px;
+  }
+
+  /* ############## Section : news ############## */
+  .news-inner {
+    width: 100%;
+  }
+  .news-content {
+    padding: 0;
+  }
+  .news-content > div {
+    width: 100%;
+    float: none;
+  }
+
+  /* Big News */
+  .news-big {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 10px;
+  }
+  .news-headline h2 {
+    font-size: 24px;
+  }
+  .news-headline p {
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  .news-headline p small {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  /* Small News */
+  .news-items {
+    display: flex;
+    gap: 10px;
+  }
+  .news-thum {
+    padding: 0;
+  }
+  .news-photo {
+    height: 100px;
+  }
+  .news-thum p {
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-top: 5px;
+  }
+  .date {
+    font-size: 11px;
+    text-align: left;
+  }
+
+  /* ############## Footer ############## */
+  footer {
+    padding: 20px;
+  }
+  .footer-inner {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .footer-content > div {
+    float: none;
+  }
+  .footer-logo,
+  .copyright {
+    width: 100%;
+  }
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+  .policy,
+  .sns {
+    float: none;
+  }
+  .sns {
+    margin-top: 20px;
+  }
+  .address span {
+    border-bottom: 1px solid #37466c;
+    padding: 10px 0;
+  }
+  .address span:last-child {
+    border-bottom: none;
+  }
+
+  /* ▦▦▦▦▦▦▦▦▦ Video Modal ▦▦▦▦▦▦▦▦▦ */
+  .video-content {
+    width: 90%;
+  }
+  .video-content h2 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .video-content iframe {
+    width: 100%;
+    height: 280px;
+  }
+  
+}

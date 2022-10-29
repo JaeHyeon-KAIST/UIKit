@@ -1,0 +1,105 @@
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+
+/* Bootstrap Icons CDN */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif !important;
+}
+button, input {
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.5em;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+/* Default CSS */
+body {
+  font-weight: 300;
+  /* padding: 10px; */
+}
+
+/* UIKit Scroll & Totop */
+/* html {
+  scroll-behavior: smooth;
+} */
+
+section {
+  text-transform: uppercase;
+  /* border: 5px solid #000; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  color: #000;
+}
+section:nth-child(odd) {
+  /* border: 5px solid blue; */
+}
+section:nth-child(even) {
+  background-color: #eee;
+  /* border: 5px solid red; */
+}
+
+.btn-up-down {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+.btn-up-down a {
+  /* border: 1px solid #000; */
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 30px;
+  background-color: #636e72;
+  color: #fff;
+  margin-bottom: 1px;
+}
+
+header {
+  background-color: #333;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+header nav {
+  width: 900px;
+  margin: auto;
+  text-align: center;
+}
+header nav a {
+  color: #fff;
+  margin: 10px;
+}
+
+footer {
+  background-color: limegreen;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+

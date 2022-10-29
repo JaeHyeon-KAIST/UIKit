@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UIKit 프레임워크 컴포넌트 - Toggle</title>
+  <!-- UIkit CSS & JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section>
+    <div class="inner">
+      <div class="pass">
+        <a class="uk-link-reset" href="" uk-toggle="target: +; animation: uk-animation-fade, uk-animation-slide-top-medium">프리미엄 이용권</a>
+        <div class="desc" hidden>
+          <div class="detail">
+            모바일/PC/스마트TV + 최고화질 + 모든 경기 LIVE + 광고 없는 VOD
+            <span>(매월 자동 결제 16,390원, VAT 포함)</span>
+          </div>
+          <div class="price">
+            14,900원 <button class="btn-apply">신청</button>
+          </div>
+        </div>
+      </div>
+      <div class="pass">
+        <a class="uk-link-reset" href="" uk-toggle="target: +; animation: uk-animation-fade, uk-animation-slide-top-medium">베이직 이용권</a>
+        <div class="desc" hidden>
+          <div class="detail">
+            모바일/PC + 고화질 + 모든 경기 LIVE + VOD
+            <span>(매월 자동 결제 8,690원, VAT 포함)</span>
+          </div>
+          <div class="price">
+            7,900원 <button class="btn-apply">신청</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</body>
+</html>

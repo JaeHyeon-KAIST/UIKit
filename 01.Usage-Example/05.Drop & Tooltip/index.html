@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UIKit 프레임워크 컴포넌트 - Drop & Tooltip</title>
+  <!-- UIkit CSS & JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="mydrop">
+    <span><i class="bi bi-gear-fill"></i></span>
+    <div uk-drop="offset: 15; mode: hover; delay-hide: 100; animation: uk-animation-fade; duration: 500">
+      <a href="#none" uk-tooltip="title: My Page; pos: right;"><i class="bi bi-person-fill"></i></a>
+      <a href="#none" uk-tooltip="title: Message; pos: right;"><i class="bi bi-lock-fill"></i></a>
+      <a href="#none" uk-tooltip="title: Shopping Cart; pos: right;"><i class="bi bi-cart-plus-fill"></i></a>
+      <a href="#none" uk-tooltip="title: Account Settings; pos: right;"><i class="bi bi-bell-fill"></i></a>
+    </div>
+  </div>
+  
+</body>
+</html>

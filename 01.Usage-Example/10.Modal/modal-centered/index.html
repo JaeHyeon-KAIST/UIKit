@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>UIKit 프레임워크 컴포넌트 - Centered Modal</title>
+  <!-- UIkit CSS & JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="#modal-newsletter" uk-toggle>뉴스레터 구독하기</a>
+
+  <div id="modal-newsletter" class="uk-flex-top" uk-modal="esc-close: true; bg-close: false;">
+    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+      <button class="uk-modal-close-default" type="button" uk-close></button>
+      <div class="photo"></div>
+      <div class="desc">
+        <h2>지금 다양한 혜택을 받아보세요.</h2>
+        <div class="desc-content">
+          <input type="email" placeholder="이메일 주소를 입력하세요.">
+          <button>뉴스레터 구독하기</button>
+          <p>
+            스타트업메이트 뉴스룸의 다양한 소식과 혜택을 이메일로 받아 보시려면 구독 신청 해주시기 바랍니다. 스타트업메이트에 대해 알고 싶은 뉴스, 꼭 알아야 할 뉴스를 신속하고 정확하게 전합니다.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    UIkit.modal('#modal-newsletter').show();
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,55 @@
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif !important;
+}
+button, input {
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.5em;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+/* Default CSS */
+body {
+  font-weight: 300;
+  background-color: #ddd;
+  margin: 0;
+}
+
+/* UIKit Slideshow */
+.myslideshow {}
+.myslideshow .uk-slideshow-nav {
+  /* border: 1px solid red; */
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin-left: 0;
+}
+
+/* .myslideshow .uk-slideshow-nav li a {
+  border: 1px solid red;
+}
+.myslideshow .uk-slideshow-nav li.uk-active a {
+  background-color: red;
+} */
+
+.myslideshow .btn-next-prev {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 17px;
+}
+.myslideshow .btn-next-prev svg {
+  color: #fff;
+  width: 15px;
+}
+
+

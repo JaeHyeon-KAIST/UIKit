@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UIKit 프레임워크 컴포넌트 - Slideshow</title>
+  <!-- UIkit CSS & JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+  <link rel="stylesheet" href="slideshow-01.css">
+</head>
+<body>
+
+  <div class="myslideshow uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: slide; autoplay: true; autoplay-interval: 2000; ratio: false">
+
+    <ul class="uk-slideshow-items" uk-height-viewport="min-height: 300">
+      <li>
+        <img src="images/slide-image-01.jpg" alt="" uk-cover>
+      </li>
+      <li>
+        <img src="images/slide-image-02.jpg" alt="" uk-cover>
+      </li>
+      <li>
+        <img src="images/slide-image-03.jpg" alt="" uk-cover>
+      </li>
+      <li>
+        <img src="images/slide-image-04.jpg" alt="" uk-cover>
+      </li>
+      <li>
+        <img src="images/slide-image-05.jpg" alt="" uk-cover>
+      </li>
+    </ul>
+
+    <a class="btn-next-prev uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous   uk-slideshow-item="previous"></a>
+
+    <a class="btn-next-prev uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+      uk-slideshow-item="next"></a>
+
+    <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+  </div>
+  
+</body>
+</html>

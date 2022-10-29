@@ -1,0 +1,81 @@
+/* Bootstrap Icons CDN */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap');
+
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif !important;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+button, input {
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.5em;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+/* Default CSS */
+body {
+  font-weight: 300;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#modal-newsletter {
+  /* border: 10px solid red; */
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#modal-newsletter .uk-modal-dialog {
+  /* border: 5px solid red; */
+  width: 600px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  padding: 0 !important;
+}
+#modal-newsletter .photo {
+  flex: 1;
+  background: url(images/office.jpg) center center no-repeat;
+  background-size: cover;
+}
+#modal-newsletter .desc {
+  flex: 2;
+}
+#modal-newsletter .desc h2 {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+#modal-newsletter .desc-content {
+  padding: 20px;
+  text-align: center;
+}
+#modal-newsletter .desc-content input[type=email] {
+  display: block;
+  border: 1px solid #ddd;
+  padding: 7px;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#modal-newsletter .desc-content button {
+  width: 100%;
+  border: none;
+  padding: 7px;
+  background-color: crimson;
+  color: #fff;
+  cursor: pointer;
+}

@@ -1,0 +1,105 @@
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');
+
+/* Bootstrap Icons CDN */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif !important;
+}
+button, input {
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.5em;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+/* Default CSS */
+body {
+  font-weight: 300;
+  background-color: #eee;
+  height: 100vh;
+  padding-top: 50px;
+}
+.uk-link, a {
+  color: #222;
+}
+.uk-link:hover, a:hover {
+  color: #222;
+  text-decoration: none;
+}
+
+/* UIKit Label & Link */
+.items {
+  /* border: 1px solid #000; */
+  width: 1400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+.items .item {
+  background-color: #fff;
+  border-radius: 10px;
+  /* overflow: hidden; */
+  padding: 10px;
+}
+.items .item .photo {
+  border-radius: inherit;
+  /* border: 1px solid #000; */
+  overflow: hidden;
+}
+.items .item .photo img {
+  /* width: 100%; */
+  transition: 0.5s;
+}
+.items .item .desc {
+  position: relative;
+  /* border: 1px solid #000; */
+}
+.items .item .desc h3 {
+  margin-top: 15px;
+}
+.items .item .desc h4 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.items .item .desc .uk-label {
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+  font-size: 12px;
+}
+
+/* Hover Effect */
+.items .item:hover .photo img {
+  transform: scale(1.1);
+}
+
+/* Tablet Layout */
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    padding: 15px;
+    height: auto;
+  }
+  .items {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile Layout */
+@media (max-width: 767px) {
+  body {
+    padding: 15px;
+    height: auto;
+  }
+  .items {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

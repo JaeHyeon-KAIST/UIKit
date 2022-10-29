@@ -1,0 +1,96 @@
+/* Google Web Fonts CDN */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+
+/* Google Web Fonts CDN */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+/* Fontawesome 4.7 */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif !important;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+button, input {
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.5em;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+/* Default CSS */
+body {
+  font-weight: 300;
+  margin: 50px;
+}
+.frame {
+  margin: 50px 0;
+}
+
+/* UIkit Custom CSS - Size modifier */
+.uk-heading-small {
+  font-size: 2em;
+}
+.uk-heading-medium {
+  font-size: 2.5em;
+}
+.uk-heading-large {
+  font-size: 3em;
+}
+.uk-heading-xlarge {
+  font-size: 3.5em;
+}
+.uk-heading-2xlarge {
+  font-size: 4em;
+}
+
+.eng {
+  font-family: 'Raleway', sans-serif !important;
+}
+
+/* UIkit Custom CSS - Divider modifier */
+.frame .uk-heading-divider {
+  padding-bottom: 20px;
+  border-bottom: 3px dashed crimson;
+}
+
+/* UIkit Custom CSS - Bullet modifier */
+/* .frame .uk-heading-bullet:before {
+  border: none;
+  background-color: crimson;
+  width: 10px;
+  border-radius: 3px;
+} */
+.frame .uk-heading-bullet:before {
+  content:"\f004";
+  font-family: fontawesome;
+  border: none;
+  color: crimson;
+  transform: translateY(-5px);
+}
+
+/* UIkit Custom CSS - Line modifier */
+.uk-heading-line {
+  text-transform: uppercase;
+}
+.uk-heading-line>::after, .uk-heading-line>::before {
+  top: calc(55% - ((.2px + .05em)/ 2));
+  border-bottom: 1px solid #ddd;
+}
+
+/* UIkit Custom CSS - Image Line modifier */
+.image.uk-heading-line>::after, 
+.image.uk-heading-line>::before {
+  border: none;
+  background: url(images/hr-back-02.png) repeat-x;
+  height: 20px;
+  transform: translateY(-10px);
+}
+

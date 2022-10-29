@@ -1,0 +1,35 @@
+Coffee
+
+ESPRESSO
+$5.0
+
+AMERICANO
+$5.0
+
+CAPPUCCINO
+$5.0
+
+MOCHA
+$5.0
+
+CAFE LATTE
+$5.0
+
+Non-Coffee
+
+CHOCOLATE
+$5.0
+
+HOT TEA
+$5.0
+
+LEMON TEA
+$5.0
+
+GREEN TEA
+$5.0
+
+ORANGE JUICE
+$5.0
+
+Thank you for visiting our store. If you have any questions, please feel free to contact us. Tel: 02-1234-5678

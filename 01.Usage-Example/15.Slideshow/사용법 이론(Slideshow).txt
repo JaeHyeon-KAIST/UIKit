@@ -1,0 +1,43 @@
+■ 슬라이드쇼 클래스 역할
+myslideshow : 특정 슬라이드 만들기
+uk-position-relative : 부모요소 만들기
+uk-visible-toggle : 마우스 오버했을 때 Next Prev 버튼 보이기
+uk-light: Next Prev 버튼 밝게 보이기
+
+■ 슬라이드쇼 옵션(Animations) - 애니메이션
+slide(default), fade, scale, pull, push
+
+■ 슬라이드쇼 옵션(Autoplay) - 자동재생
+autoplay: true
+
+■ 슬라이드쇼 옵션(Infinite Scrolling) - 무한반복
+finite: true
+
+■ 슬라이드쇼 옵션(Ratio) - 슬라이드 가로세로 비율
+ratio: 7:3
+
+■ 슬라이드쇼 옵션(Min/Max height) - 슬라이드 최소 최대 높이
+min-height: px 없이 숫자
+max-height: px 없이 숫자
+
+■ 슬라이드쇼 옵션(Viewport height) - 화면 높이에 맞춤
+- 풀스크린 슬라이드 만들기
+ratio: false
+.uk-slideshow-items에 uk-height-viewport="min-height: 300"
+
+■ 슬라이드쇼 옵션(Navigation) - 도트(Dot) 네비게이션
+Custom CSS 반드시 필요
+
+===================================================
+
+■ 슬라이드쇼 옵션(Content overlays) - 슬라이드 이미지 위에 올리는 컨텐츠
+uk-position-center : 부모요소의 수직 중앙 수평 중앙에 위치
+uk-position-top : 부모요소의 상단에 위치
+uk-position-bottom : 부모요소의 하단에 위치
+uk-position-left : 부모요소의 왼쪽에 위치
+uk-position-right : 부모요소의 오른쪽에 위치
+
+오버레이 만들기 uk-overlay
+
+■ 슬라이드쇼 옵션(Content transitions) - 콘텐츠가 트랜지션으로 보이기
+Transition component

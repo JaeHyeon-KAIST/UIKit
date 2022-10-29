@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UIKit 프레임워크 컴포넌트 - Scroll & Totop</title>
+  <!-- UIkit CSS & JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container" id="start">
+    <header>
+      <nav>
+        <a href="#section1" uk-scroll>Section 1</a>
+        <a href="#section2" uk-scroll="offset: 50">Section 2</a>
+        <a href="#section3" uk-scroll="offset: 50">Section 3</a>
+        <a href="#section4" uk-scroll="offset: 50">Section 4</a>
+        <a href="#section5" uk-scroll="offset: 50">Section 5</a>
+      </nav>
+    </header>
+    <section id="section1">Section #01</section>
+    <section id="section2">Section #02</section>
+    <section id="section3">Section #03</section>
+    <section id="section4">Section #04</section>
+    <section id="section5">Section #05</section>
+    <footer id="end">Footer</footer>
+  </div>
+
+  <div class="btn-up-down">
+    <a href="#start" uk-scroll><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#end" uk-scroll><i class="bi bi-arrow-down-short"></i></a>
+  </div>
+  
+</body>
+</html>

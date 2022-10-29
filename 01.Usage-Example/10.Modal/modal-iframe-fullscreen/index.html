@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UIKit 프레임워크 컴포넌트 - Modal 웹사이트 포트폴리오</title>
+  <!-- UIkit CSS & JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="#modal-website1" uk-toggle>웹사이트 퍼블리싱 포트폴리오 #01</a>
+  <a href="#modal-website2" uk-toggle>웹사이트 퍼블리싱 포트폴리오 #02</a>
+
+  <!-- <a href="portfolio-website-01/index.html" target="_blank">웹사이트 퍼블리싱 포트폴리오 #01</a> -->
+
+  <div id="modal-website1" class="website-portfolio uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+      <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+      <iframe src="portfolio-website-01/index.html" frameborder="0"></iframe>
+    </div>
+  </div>
+  <div id="modal-website2" class="website-portfolio uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+      <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+      <iframe src="portfolio-website-02/index.html" frameborder="0"></iframe>
+    </div>
+  </div>
+  
+</body>
+</html>

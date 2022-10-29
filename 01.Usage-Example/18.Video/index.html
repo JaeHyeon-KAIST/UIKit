@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UIKit 프레임워크 컴포넌트 - Video</title>
+  <!-- UIkit CSS & JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="frame">
+    <iframe src="https://www.youtube.com/embed/9kj_vwleR6Q?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" width="1920" height="1080" frameborder="0" allowfullscreen uk-responsive uk-video="automute: true"></iframe>
+  </div>
+
+  <div class="frame">
+    <button class="uk-button uk-button-default uk-margin" type="button" uk-toggle="target: +">Toggle HTML5 Video</button>
+
+    <video src="turtle.mp4" controls muted loop playsinline hidden uk-video></video>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="http://placehold.it/600x1000" alt="">
+  </div>
+
+  <div class="frame">
+    <video src="turtle.mp4" loop playsinline uk-video="autoplay: inview"></video>
+  </div>
+  
+</body>
+</html>

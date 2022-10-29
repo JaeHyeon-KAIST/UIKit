@@ -1,0 +1,84 @@
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');
+
+/* Bootstrap Icons CDN */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif !important;
+}
+button, input {
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.5em;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+/* Default CSS */
+body {
+  font-weight: 300;
+}
+
+.portfolio {}
+.portfolio .inner {
+  /* border: 1px solid #000; */
+  width: 1000px;
+  margin: auto;
+}
+.portfolio .inner h1 {
+  text-align: center;
+}
+.portfolio-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+.portfolio-items a {
+  text-align: center;
+}
+.portfolio-items a img {
+  border: 1px solid #eee;
+}
+.portfolio-items a span {
+  display: block;
+}
+
+/* UIKit Custom CSS */
+.uk-lightbox .uk-lightbox-iframe {
+  /* border: 10px solid red; */
+  width: 100%;
+  height: 100%; 
+  background-color: #fff;
+}
+.uk-lightbox .uk-lightbox-button {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  opacity: 1;
+}
+.uk-lightbox .uk-lightbox-toolbar {
+  background-color: transparent;
+}
+.uk-lightbox .uk-lightbox-toolbar-icon {
+  background-color: tomato;
+  border-radius: 50%;
+  padding: 15px;
+  margin-right: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.219);
+  transition: 0.35s;
+}
+.uk-lightbox .uk-lightbox-toolbar-icon:hover {
+  transform: scale(1.1);
+}
+.uk-lightbox .uk-transition-slide-top {
+  transform: translateY(0);
+}
+
+
+
+
+

@@ -1,0 +1,89 @@
+/* Bootstrap Icons CDN */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif !important;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+button, input {
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.5em;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+/* Default CSS */
+body {
+  font-weight: 300;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* UIKit Switcher & Tab  */
+.myswicher {
+  /* border: 1px solid #000; */
+  width: 700px;
+}
+.myswicher h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+/* Swicher Navigation */
+.myswicher .uk-tab {
+  display: flex;
+  margin-left: 0;
+  gap: 2px;
+  margin-bottom: 0;
+}
+.myswicher .uk-tab>* {
+  padding-left: 0;
+}
+.myswicher .uk-tab li {
+  flex: 1;
+}
+.myswicher .uk-tab li a {
+  display: block;
+  text-align: center;
+  background-color: #bbb;
+  color: #fff;
+}
+.myswicher .uk-tab li a i {
+  font-size: 1.5em;
+}
+.myswicher .uk-tab li a span {
+  display: block;
+}
+.myswicher .uk-tab:before {
+  display: none;
+}
+.myswicher .uk-tab>.uk-active>a {
+  border-color: transparent;
+  background-color: #eee;
+  color: crimson;
+}
+
+/* Swicher Content */
+.myswicher .uk-switcher {}
+.myswicher .uk-switcher li {
+  background-color: #eee;
+  padding: 25px;
+  /* border: 1px solid #000; */
+  min-height: 300px;
+}
+.myswicher .uk-switcher li h2 {
+  font-size: 1.3em;
+}

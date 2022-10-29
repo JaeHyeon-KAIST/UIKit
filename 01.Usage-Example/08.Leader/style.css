@@ -1,0 +1,76 @@
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');
+
+/* Bootstrap Icons CDN */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif !important;
+}
+button, input {
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.5em;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+/* Default CSS */
+body {
+  font-weight: 300;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-list {
+  /* border: 1px solid #000; */
+  width: 600px;
+  background-color: #007171;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.price-header {
+  text-align: center;
+}
+.price-items {
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: inherit;
+  display: flex;
+  gap: 30px;
+  margin: 30px 0;
+}
+.price-items .price-item {
+  flex: 1;
+}
+.price-items .price-item h2 {}
+.price-footer {
+  color: #fff;
+  text-align: center;
+}
+.price-footer span {
+  text-decoration: underline;
+}
+
+/* UIKit Custom CSS */
+.price-items .price-item .uk-grid>*>:last-child {
+  color: crimson;
+}
+.price-items .price-item .uk-grid>*>:last-child:after {
+  color: #000;
+}
+.price-items .price-item .uk-grid div:last-child {
+  font-weight: bold;
+}
+
+
+
+
+
+
