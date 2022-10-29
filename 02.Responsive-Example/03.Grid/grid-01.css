@@ -1,0 +1,40 @@
+/* Google Web Fonts CDN */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif !important;
+}
+button, input {
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.5em;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+/* Default CSS */
+body {
+  font-weight: 300;
+  margin: 50px;
+}
+
+/* UIKit Grid */
+.cell {
+  background-color: #fff;
+  color: #666;
+  /* box-shadow: 0 5px 15px rgb(0, 0, 0, 0.1); */
+  border: 1px solid #000;
+  padding: 30px 30px;
+  text-align: center;
+}
+/* ===================================== */
+
+
+
+
+
+
+

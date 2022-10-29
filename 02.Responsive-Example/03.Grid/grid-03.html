@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UIKit 프레임워크 컴포넌트 - Grid</title>
+  <!-- UIkit CSS & JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+  <link rel="stylesheet" href="grid-03.css">
+</head>
+<body>
+
+  <!-- 
+    Grid 셀 내부에 자식 Grid(Nesting Grid)
+
+    Grid 셀들이 높이가 다를 경우 높이 맞춰주기
+  -->
+
+  <div class="frame uk-grid-collapse uk-child-width-expand uk-grid-match" uk-grid>
+    <div>
+      <div class="cell">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum excepturi debitis animi nihil ipsum delectus quod non labore inventore. Doloremque officiis ut voluptatibus laborum mollitia distinctio, facilis autem ducimus dolorem repudiandae, ex nihil necessitatibus beatae veniam perferendis. Id ullam ducimus fuga quidem nobis voluptatum, repellat facere officiis molestias nam eum. Repellendus, laudantium id? Architecto id facilis.
+      </div>
+    </div>
+    <div>
+      <div class="cell uk-child-width-expand uk-grid-collapse" uk-grid>
+        <div>
+          <div class="nesting">nesting</div>
+        </div>
+        <div>
+          <div class="nesting">nesting</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>

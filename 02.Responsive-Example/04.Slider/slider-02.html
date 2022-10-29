@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UIKit 프레임워크 컴포넌트 - Slider</title>
+  <!-- UIkit CSS & JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+  <link rel="stylesheet" href="slider-02.css">
+</head>
+<body>
+
+  <!-- 
+    센터 & 좌우 빼꼼이 슬라이더 만들기
+    우측 빼꼼이 슬라이더
+
+    자동재생 autoplay
+    무한 스크롤 안하기 finite: true
+   -->
+
+   <div class="myslider uk-position-relative uk-visible-toggle uk-dark" tabindex="-1" uk-slider="center: false; autoplay: true; autoplay-interval: 3000">
+
+     <ul class="uk-slider-items uk-grid uk-grid-small">
+       <li class="uk-width-3-4">
+         <img src="images/class-thum-basic-01.png">
+       </li>
+       <li class="uk-width-3-4">
+         <img src="images/class-thum-basic-02.png">
+       </li>
+       <li class="uk-width-3-4">
+         <img src="images/class-thum-basic-03.png">
+       </li>
+       <li class="uk-width-3-4">
+         <img src="images/class-thum-basic-04.png">
+       </li>
+       <li class="uk-width-3-4">
+         <img src="images/class-thum-basic-05.png">
+       </li>
+       <li class="uk-width-3-4">
+         <img src="images/class-thum-basic-06.png">
+       </li>
+     </ul>
+
+     <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+     <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+     <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+   </div>
+  
+</body>
+</html>

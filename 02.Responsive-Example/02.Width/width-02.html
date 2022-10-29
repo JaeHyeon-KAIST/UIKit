@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UIKit 프레임워크 컴포넌트 - Width</title>
+  <!-- UIkit CSS & JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+  <link rel="stylesheet" href="width-02.css">
+</head>
+<body>
+
+  <!-- 
+    ■ Auto & expand
+
+    ■ Equal child widths
+    - 부모요소에 uk-child-width-* 주기
+    - 부모요소에 uk-child-width-expand 주기
+
+    ■ Fixed width
+
+    ■ Mixing widths
+  -->
+  
+  <div class="frame" uk-grid>
+    <div class="uk-width-auto">
+      <div class="cell">Cell...........Auto</div>
+    </div>
+    <div class="uk-width-expand">
+      <div class="cell">Cell...Expand</div>
+    </div>
+  </div>
+
+  <hr style="margin: 50px 0;">
+
+  <div class="frame uk-child-width-1-2" uk-grid>
+    <div>
+      <div class="cell">Cell 1</div>
+    </div>
+    <div>
+      <div class="cell">Cell 2</div>
+    </div>
+    <div class="uk-width-1-1">
+      <div class="cell">Cell 3</div>
+    </div>
+    <div>
+      <div class="cell">Cell 4</div>
+    </div>
+    <div>
+      <div class="cell">Cell 5</div>
+    </div>
+  </div>
+
+  <hr style="margin: 50px 0;">
+
+  <div class="uk-child-width-expand" uk-grid>
+    <div>
+      <div class="cell">Cell 1</div>
+    </div>
+    <div>
+      <div class="cell">Cell 2</div>
+    </div>
+    <div>
+      <div class="cell">Cell 3</div>
+    </div>
+    <div>
+      <div class="cell">Cell 4</div>
+    </div>
+  </div>
+
+  
+</body>
+</html>

@@ -1,0 +1,70 @@
+/* Google Web Fonts CDN */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif !important;
+}
+button, input {
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.5em;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+/* Default CSS */
+body {
+  font-weight: 300;
+}
+.uk-link, a {
+  color: #000;
+}
+.uk-link:hover, a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Custom Filter */
+section {}
+section .inner {
+  /* border: 1px solid #000; */
+  width: 1200px;
+  margin: auto;
+}
+section .inner h1 {
+  text-align: center;
+}
+.myfilter {}
+.myfilter .uk-subnav {}
+.myfilter .roadmap li div p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* UIKit Custom CSS */
+.uk-subnav-pill>*>:first-child {
+  color: #000 !important;
+  font-size: 16px;
+}
+.uk-subnav-pill>.uk-active>a {
+  border-bottom: 2px solid crimson;
+  color: crimson !important;
+  background-color: transparent;
+}
+
+@media (max-width: 1200px) {
+  section .inner {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UIKit 프레임워크 컴포넌트 - Grid</title>
+  <!-- UIkit CSS & JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+  <link rel="stylesheet" href="grid-01.css">
+</head>
+<body>
+
+  <!-- 
+    UIKit Grid는 Flex 기반으로 제작된 반응형 레이아웃
+
+    Grid 기본적인 사용법
+    uk-grid 바로 밑에 div 구조를 반드시 갖추어야 함.
+
+    Grid 내부 셀 간격조정
+    small, medium, large, collapse 
+  -->
+
+  <div class="frame uk-child-width-1-3 uk-grid-row-collapse" uk-grid>
+    <div>
+      <div class="cell">cell</div>
+    </div>
+    <div>
+      <div class="cell">cell</div>
+    </div>
+    <div>
+      <div class="cell">cell</div>
+    </div>
+    <div>
+      <div class="cell">cell</div>
+    </div>
+    <div>
+      <div class="cell">cell</div>
+    </div>
+    <div>
+      <div class="cell">cell</div>
+    </div>
+  </div>
+
+  
+</body>
+</html>
